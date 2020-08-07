@@ -1,6 +1,6 @@
 const { Schema, model } = require("mongoose");
 
-new ArticleSchema({
+const ArticleSchema = new Schema({
   title: String,
   description: String,
   imageURL: String
